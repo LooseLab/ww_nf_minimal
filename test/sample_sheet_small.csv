@@ -1,0 +1,3 @@
+sample_id,sample_site_code,timestamp_sample_collected,sequencing_lab_code,sequencing_sample_id,sequencing_run_id,sequencing_primer_set_version
+2109225-21,NW-GFH,09112021:1225,NOTTINGHAM_UNI,2109225-21_NOTT-08775_NP102,WW036,3.01
+2108482-13,UKENNW_UU_TP000038,12112021:0804,LIVERPOOL_UNI,1_seqloc_C5_2131711_C5_2108482_13,211119,3.01

@@ -1,0 +1,5 @@
+	VARIANT_FILE
+summarized	[]
+lineages	[]
+abundances	[]
+resid	NaN
