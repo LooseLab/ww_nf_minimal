@@ -73,8 +73,8 @@ log.info """\
 //  - metadata: data from other columns as a map (?)
 
 // Add trailing slash
-readsdir_repaired = "${params.readsdir}".endsWith("/") ?: "${params.readsdir}/"
-outdir = "${params.outdir}".endsWith("/") ?: "${params.outdir}/"
+readsdir_repaired = "${params.readsdir}".endsWith("/") ? "${params.readsdir}" : "${params.readsdir}/"
+outdir = "${params.outdir}".endsWith("/") ? "${params.outdir}" : "${params.outdir}/"
 
 // Read the input CSV, find the files and make the metadata map
 Channel
